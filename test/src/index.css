@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: block;
+  margin-top: 30px;
+  padding-top: 20px ;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 25%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(90deg, #00c9ff 0%, #92fe9d 100%);
+  border-radius: 5px;
+  border: 5px solid #207fe9;
+  padding: 10px;
+  margin: auto;
+}
+.img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  border: 3px solid wheat;
+  margin: auto;
+  padding: 5px;
+}
+h3,
+h4,
+h5 {
+  margin: 0px;
+}
+.mode {
+  text-align: left;
+  padding: 5px 10px;
+  background-color: white;
+  width: 60px;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 3px;
+  border-bottom: 2px dashed black;
+  padding-bottom: 20px;
+}
+.btn {
+  padding: 5px 10px;
+  border: 2px solid;
+  font-size: 13px;
+  font-weight: 800;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+.skill {
+  text-align: left;
+}
+.skill {
+  list-style-type: none;
+  text-align: justify;
+  padding: 15px;
+  margin: 0px;
+}
+.skill ul li {
+  display: inline-block;
+  padding: 5px;
+  border: 2px solid black;
+  margin: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
